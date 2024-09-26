@@ -88,6 +88,8 @@ body {
   }
 }
 
+
+
 /* @keyframes animate {
     0%,100%{
         transform: translateY(50px);
@@ -108,6 +110,11 @@ section {
 @media (max-width: 900px) {
   section {
     padding: 50px 10px 10px;
+  }
+}
+@media (max-width: 600px) {
+  section {
+    padding: 5px 5px 5px;
   }
 }
 
@@ -144,10 +151,10 @@ section {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 600px) {
   .container {
     flex-direction: column;
-    margin-top: 80px;
+    margin-top: 5px;
     height: auto;
     padding: 10px;
     width: calc(100% - 0px);
@@ -261,6 +268,38 @@ section {
     }
   }
 }
+
+@media (max-width: 600px) {
+  header {
+    position: relative;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px;
+  }
+  header ul {
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header ul li {
+    margin: 2px;
+  }
+
+  header ul li a {
+    display: inline-block;
+  }
+}
+
+
+
+
+
+
+
 
 header .logo {
   color: black;
